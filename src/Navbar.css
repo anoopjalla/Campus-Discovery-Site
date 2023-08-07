@@ -1,0 +1,51 @@
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; 
+}
+
+body {
+    font-size: 1.6rem; 
+}
+
+li{
+    list-style: none; 
+}
+a{
+    text-decoration: none; 
+    color: darkgrey; 
+}
+.nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh; 
+    background: #000; 
+}
+
+.nav_brand{
+    text-transform: uppercase; 
+    font-weight: bold; 
+
+}
+
+.nav_menu{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem; 
+}
+.nav_toggler div {
+    width: 2.5rem; 
+    height: 0.2rem; 
+    margin: 0.4rem; 
+    background: darkgray; 
+}
+
+.nav_toggler{
+    cursor: pointer; 
+    display: none;
+}
